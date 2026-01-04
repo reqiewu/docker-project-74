@@ -4,8 +4,7 @@ services:
   app:
     build:
       context: .
-      dockerfile: Dockerfile
-    volumes:
-      - ./app:/app
+      dockerfile: Dockerfile.production
+    image: reqiewu/github-docker-project-74
     command: make test
 
