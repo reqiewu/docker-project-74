@@ -1,2 +1,5 @@
 node_modules
-
+.gitignore
+explanations/
+*.explained.md
+*GUIDE.md
